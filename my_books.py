@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-# Инициализация базы
+#  Инициализация базы
 db_engine = create_engine("sqlite:///library.db")
 Base = declarative_base()
 
